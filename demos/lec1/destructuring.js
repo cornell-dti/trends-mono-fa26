@@ -1,7 +1,7 @@
 // Object destructuring
 const obj = { a: 1, b: 2, c: 3 };
-const { a, b: secondProp, d = 4 } = obj;
-// console.log([a, secondProp, d]. join(", "));
+const { a, b: secondProp, d = 5 } = obj;
+console.log([a, secondProp, d].join(", "));
 
 // Nested object destructuring
 const nestedObj = {
@@ -11,26 +11,37 @@ const nestedObj = {
 const {
   x: { y, z: depth },
 } = nestedObj;
-// console.log([y, depth].join(", ")); // what is this going to print?
+console.log([y, depth].join(", ")); // what is this going to print?
 
 // Array destructuring
 const arr = [1, 2, 3, 4, 5];
 let [first, , third, ...rest] = arr;
-// console.log([first, third, rest].join("---"));
+console.log([first, third, rest].join("---"));
 
 // Destructuring in function parameters
 function printPersonInfo({ name, age }) {
   console.log(`${name} is ${age} years old.`); // Notice the string interpolation 👀
 }
-// printPersonInfo({ name: "Alice", age: 30});
+printPersonInfo({ name: "Alice", age: 30 });
 
 // Combining spread and destructuring
-const obj2 = { ...obj, b: 4, d: 5 };
-// console.log(obj2);
+const obj2 = { ...obj, b: 4, d: 5, trends: 10 };
+console.log(obj2);
+
+const { a: trends, b } = obj2;
+console.log(trends);
+console.log(b);
 
 // Multiple return values using destructuring
 function getMinMax(numbers) {
   return [Math.min(...numbers), Math.max(...numbers)];
 }
 const [min, max] = getMinMax([3, 1, 4, 1, 5, 9, 2, 6]);
-// console.log([min, max].join(", "));
+console.log([min, max].join(", "));
+
+let nameOfJohn = "John";
+const age = 30;
+
+const text = `Hi my name is ${nameOfJohn + 1} and I am ${age} years old`;
+
+console.log(text);
