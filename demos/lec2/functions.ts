@@ -1,4 +1,7 @@
-// Design a function that takes several arguments and returns an OptionalRatingBook
+/**
+ * Design a function that takes 'title', 'firstName', 'lastName', 'yearPublished', 'genres', 'available', and 'ratings'
+ * and returns an OptionalRatingBook
+ */
 
 interface Author {
   firstName: string;
