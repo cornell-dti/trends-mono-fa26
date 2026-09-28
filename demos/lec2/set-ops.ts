@@ -30,3 +30,19 @@
  */
 
 // TODO
+
+/**
+ * Create a type called 'SharedPets'.
+ *
+ * It must allow only animals that appear in BOTH ApartmentPets and FamilyPets
+ *
+ * Then:
+ * 1) Create a variable of type SharedPets with an allowed value.
+ * 2) Try assigning a value that appears in only one of the types.
+ *    Check that TypeScript reports an error.
+ */
+
+type ApartmentPets = "cat" | "fish" | "hamster";
+type FamilyPets = "cat" | "dog" | "hamster";
+
+// TODO
