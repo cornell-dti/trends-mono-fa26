@@ -17,7 +17,34 @@
  *   }
  */
 
-// TODO
+type Success = {
+  success: true;
+  data: string;
+};
+
+type Failure = {
+  success: false;
+  error: string;
+};
+
+type Result = Success | Failure;
+
+let result: Result = {
+  success: false,
+  error: "this is a result",
+};
+
+// Could also write as below, but not as readable
+
+type ResultUgly =
+  | {
+      success: true;
+      data: string;
+    }
+  | {
+      success: false;
+      error: string;
+    };
 
 /**
  * Create two types:
@@ -29,10 +56,18 @@
  * Create a new type called 'Product' that requires a name and a price.
  */
 
-// TODO
+type HasName = {
+  name: string;
+};
+
+type HasPrice = {
+  price: number;
+};
+
+type Product = HasName & HasPrice;
 
 /**
- * Create a type called 'SharedPets'.
+ * Create a type called 'SharedPets' using an intersection.
  *
  * It must allow only animals that appear in BOTH ApartmentPets and FamilyPets
  *
@@ -45,4 +80,6 @@
 type ApartmentPets = "cat" | "fish" | "hamster";
 type FamilyPets = "cat" | "dog" | "hamster";
 
-// TODO
+type SharedPets = ApartmentPets & FamilyPets;
+
+const myPet: SharedPets = "cat";

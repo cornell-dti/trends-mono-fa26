@@ -23,6 +23,62 @@ interface OptionalRatingBook {
 }
 
 // Don't forget the parameters!
-const CreateBook = () => {
-  // TODO
+const CreateBook = (
+  title: string,
+  firstName: string,
+  lastName: string,
+  yearPublished: number,
+  genres: object,
+  available: boolean,
+  ratings?: Ratings,
+): OptionalRatingBook => {
+  const tempObj = {
+    title: title,
+    author: {
+      firstName: firstName,
+      lastName: lastName,
+    },
+    yearPublished: yearPublished,
+    genres: genres,
+    available: available,
+  };
+
+  return ratings ? { ...tempObj, ratings: ratings } : tempObj;
 };
+
+// The longer way:
+
+// const CreateBook = (
+//   title: string,
+//   firstName: string,
+//   lastName: string,
+//   yearPublished: number,
+//   genres: object,
+//   available: boolean,
+//   ratings?: Ratings,
+// ): OptionalRatingBook => {
+//   if (ratings) {
+//     return {
+//       title: title,
+//       author: {
+//         firstName: firstName,
+//         lastName: lastName,
+//       },
+//       yearPublished: yearPublished,
+//       genres: genres,
+//       available: available,
+//       ratings: ratings,
+//     };
+//   } else {
+//     return {
+//       title: title,
+//       author: {
+//         firstName: firstName,
+//         lastName: lastName,
+//       },
+//       yearPublished: yearPublished,
+//       genres: genres,
+//       available: available,
+//     };
+//   }
+// };
