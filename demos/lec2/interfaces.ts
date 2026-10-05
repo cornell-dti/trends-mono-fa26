@@ -1,5 +1,5 @@
 // How would you make an interface for this?
-const book: Book = {
+const book = {
   title: "The Pragmatic Programmer",
   author: {
     firstName: "Andrew",
@@ -12,9 +12,10 @@ const book: Book = {
     average: 4.5,
     count: 2150,
   },
+  something: "something",
 };
 
-interface Book {
+type Book = {
   title: string;
   author: {
     firstName: string;
@@ -27,6 +28,10 @@ interface Book {
     average: number;
     count: number; // notice that both integers and doubles are numbers!
   };
-}
+};
+
+const checkFunc = (book: Book) => book.author;
+
+checkFunc(book);
 
 const newFunc = (s: string, n: number): string => s;
