@@ -1,19 +1,32 @@
+import { useState } from "react";
 import "./App.css";
 import CoursePlan from "./components/CoursePlan";
-// import MemoDemo from "./components/hookDemos/MemoDemo";
-// import ContextDemo from "./components/hookDemos/ContextDemo";
+import MemoDemo from "./components/hookDemos/MemoDemo";
+import ContextDemo from "./components/hookDemos/ContextDemo";
+import { ThemeContext, type Theme } from "./ThemeContext";
 
-// Activity 3 (optional): Share a light/dark theme using context.
-// 1. In src/ThemeContext.ts, create ThemeContext and a useTheme() custom hook.
-// 2. Add theme state, a ThemeContext.Provider, and a toggle button here.
-// 3. In CourseCard.tsx, read the theme with useTheme() and style the card.
 const App = () => {
+  // Lecture 4, slides 28–29: Theme extension — provide the selected theme.
+  const [theme, setTheme] = useState<Theme>("light");
+
   return (
-    <div>
-      <h1>Lecture 4 Demo</h1>
-      <CoursePlan />
-      {/* Replace CoursePlan with MemoDemo or ContextDemo for each hook demo. */}
-    </div>
+    <ThemeContext.Provider value={theme}>
+      <div>
+        <h1>Lecture 4 Demo</h1>
+        <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+          Switch course cards to {theme === "light" ? "dark" : "light"} mode
+        </button>
+        <section>
+          <CoursePlan />
+        </section>
+        <section>
+          <MemoDemo />
+        </section>
+        <section>
+          <ContextDemo />
+        </section>
+      </div>
+    </ThemeContext.Provider>
   );
 };
 

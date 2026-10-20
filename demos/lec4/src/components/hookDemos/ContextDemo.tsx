@@ -1,9 +1,10 @@
-// Create CountContext, provide count, and replace the
-// three hardcoded counts with useContext(CountContext).
-import { useState } from "react";
+import { createContext, useContext, useState } from "react";
+
+// Lecture 4, after slide 27: useContext — share count across generations.
+const CountContext = createContext(0);
 
 const GrandchildComponent = () => {
-  const count = 0;
+  const count = useContext(CountContext);
 
   return (
     <div>
@@ -13,7 +14,7 @@ const GrandchildComponent = () => {
 };
 
 const ChildComponent = () => {
-  const count = 0;
+  const count = useContext(CountContext);
 
   return (
     <div>
@@ -24,7 +25,7 @@ const ChildComponent = () => {
 };
 
 const Component = () => {
-  const count = 0;
+  const count = useContext(CountContext);
 
   return (
     <div>
@@ -40,9 +41,12 @@ const ContextDemo = () => {
   return (
     <div>
       <h1>Context Demo</h1>
-      <button onClick={() => setCount(count + 1)}>Happy Birthday!</button>
-      <p>{`Grandparent: I am ${count + 90} years old.`}</p>
-      <Component />
+
+      <CountContext.Provider value={count}>
+        <button onClick={() => setCount(count + 1)}>Happy Birthday!</button>
+        <p>{`Grandparent: I am ${count + 90} years old.`}</p>
+        <Component />
+      </CountContext.Provider>
     </div>
   );
 };

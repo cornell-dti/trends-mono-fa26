@@ -10,6 +10,8 @@ type SemesterProps = {
 
 const Semester = ({ name, allCourses }: SemesterProps) => {
   const [courses, setCourses] = useState<Course[]>([]);
+  // Lecture 4, slide 7: Toggling — conditionally show the semester contents.
+  const [isMinimized, setIsMinimized] = useState(false);
 
   const handleCourseSelection = (course: Course) => {
     setCourses([...courses, course]);
@@ -19,16 +21,20 @@ const Semester = ({ name, allCourses }: SemesterProps) => {
     <div className="semesterBox">
       <div className="semesterHeader">
         <h2 className="semesterTitle">{name}</h2>
-        {/* Activity 2: Add a slide toggle that minimizes the dropdown and all listed courses. */}
-        <SlideToggle
-          label={"minimize"}
-          onChange={() => console.log("Not yet implemented!")}
-        />
+        <SlideToggle label={"minimize"} onChange={setIsMinimized} />
       </div>
-      <Dropdown options={allCourses} onChange={handleCourseSelection} />
-      {courses.map((course, index) => (
-        <CourseCard key={`${course.subject}-${course.catalogNbr}-${index}`} course={course} />
-      ))}
+
+      {!isMinimized && (
+        <>
+          <Dropdown options={allCourses} onChange={handleCourseSelection} />
+          {courses.map((course, index) => (
+            <CourseCard
+              key={`${course.subject}-${course.catalogNbr}-${index}`}
+              course={course}
+            />
+          ))}
+        </>
+      )}
     </div>
   );
 };

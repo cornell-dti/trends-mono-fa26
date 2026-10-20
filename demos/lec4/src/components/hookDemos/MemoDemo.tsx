@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const NonMemoizedFib = () => {
   const [foo, setFoo] = useState(0);
@@ -22,7 +22,11 @@ const NonMemoizedFib = () => {
         max={35}
         aria-label="Fibonacci input"
         value={input}
-        onChange={(e) => setInput(Math.min(35, Math.max(0, Math.trunc(Number(e.target.value) || 0))))}
+        onChange={(e) =>
+          setInput(
+            Math.min(35, Math.max(0, Math.trunc(Number(e.target.value) || 0))),
+          )
+        }
       />
 
       <p>{`Value: ${value}`}</p>
@@ -31,12 +35,40 @@ const NonMemoizedFib = () => {
   );
 };
 
-// Copy NonMemoizedFib, then cache fib(input) with useMemo.
-// Use input = 34 in both versions for a fair comparison.
+// Lecture 4, after slide 25: useMemo — cache Fibonacci until input changes.
 const MemoizedFib = () => {
+  const [foo, setFoo] = useState(0);
+  const [input, setInput] = useState(34);
+
+  const value = useMemo(() => {
+    const fib = (n: number): number => {
+      if (n <= 1) {
+        return 1;
+      }
+      return fib(n - 1) + fib(n - 2);
+    };
+
+    return fib(input);
+  }, [input]);
+
   return (
     <div>
-     <p>Not yet implemented!</p>
+      <button onClick={() => setFoo(foo + 1)}>Trigger re-render</button>
+      <input
+        type="number"
+        min={0}
+        max={35}
+        aria-label="Fibonacci input"
+        value={input}
+        onChange={(e) =>
+          setInput(
+            Math.min(35, Math.max(0, Math.trunc(Number(e.target.value) || 0))),
+          )
+        }
+      />
+
+      <p>{`Value: ${value}`}</p>
+      <p>{`Count: ${foo}`}</p>
     </div>
   );
 };

@@ -1,4 +1,8 @@
-// Activity 3 (optional): Shared theme and custom hook.
-// Create a Theme type ("light" | "dark"), a ThemeContext defaulting to "light",
-// and a useTheme() hook that returns useContext(ThemeContext).
-export {};
+import { createContext, useContext } from "react";
+
+export type Theme = "light" | "dark";
+
+export const ThemeContext = createContext<Theme>("light");
+
+// Lecture 4, slides 28–29: Theme extension — wrap context in a custom hook.
+export const useTheme = () => useContext(ThemeContext);

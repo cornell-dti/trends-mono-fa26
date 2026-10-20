@@ -1,9 +1,8 @@
-// Activity 1: Uncomment these imports when rendering semesters.
-// import Semester from "./Semester";
+import Semester from "./Semester";
 import "./styles.css";
-// import { COURSES } from "../constants/consts";
+import { COURSES } from "../constants/consts";
 import { useState } from "react";
-// import { makeArray } from "../util";
+import { makeArray } from "../util";
 
 const CoursePlan = () => {
   const [semesterCount, setSemesterCount] = useState<number>(1);
@@ -14,12 +13,18 @@ const CoursePlan = () => {
 
   return (
     <div>
-      {/* Activity 1: Render semesters with makeArray(semesterCount).map(). The button already updates state.  */}
+      {/* Lecture 4, slide 5: Adding Semesters — render the list with map. */}
       <button className="newSemesterButton" onClick={handleNewSemesterClick}>
         + New Semester
       </button>
       <div className="semesterContainer">
-        Semesters should be displayed here!
+        {makeArray(semesterCount).map((sem) => (
+          <Semester
+            key={sem}
+            name={`Semester ${sem + 1}`}
+            allCourses={COURSES}
+          />
+        ))}
       </div>
     </div>
   );
