@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <div>
+      <div className="lectureDemo">
         <h1>Lecture 4 Demo</h1>
         <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
           Switch course cards to {theme === "light" ? "dark" : "light"} mode

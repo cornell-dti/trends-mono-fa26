@@ -1,9 +1,8 @@
 .courseCard {
   border: 1px black solid;
   border-radius: 8px;
-  padding: 8px;
+  padding: 12px;
   text-align: left;
-  box-shadow: 0 0 10px 4px #efefef;
 }
 
 .courseCard:hover {
@@ -31,11 +30,13 @@
 .semesterBox {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   padding: 0.875rem 1.125rem;
   border: 2px solid #d8d8d8;
   border-radius: 11px;
-  min-width: 400px;
+  width: 440px;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .newSemesterButton {
@@ -50,6 +51,7 @@
 }
 
 .semesterTitle {
+  margin: 0;
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
@@ -59,31 +61,44 @@
 .semesterHeader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .semesterContainer {
   display: flex;
-  gap: 64px;
+  gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.dropdown {
+  position: relative;
+}
+
 .dropdownMenu {
+  z-index: 1;
+  color: #213547;
+  border: 1px solid #aaa;
+  border-radius: 6px;
   position: absolute;
   background-color: #efefef;
-  width: 207px;
+  width: 100%;
   max-height: 350px;
   overflow-y: auto;
 }
 
 .courseSearchBar {
   display: flex;
-  width: 200px;
+  width: 100%;
 }
 
 .dropdownOption {
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
 }
 
 .dropdownOption:hover {

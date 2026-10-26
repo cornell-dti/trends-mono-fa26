@@ -35,6 +35,8 @@ const Dropdown = ({ options, onChange }: DropdownProps) => {
   return (
     <div className="dropdown">
       <input
+        aria-label="Search courses"
+        placeholder="Search courses (e.g. CS)"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         className="courseSearchBar"

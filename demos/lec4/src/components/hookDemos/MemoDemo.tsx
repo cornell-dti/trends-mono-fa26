@@ -14,21 +14,23 @@ const NonMemoizedFib = () => {
   const value = fib(input);
 
   return (
-    <div>
-      <button onClick={() => setFoo(foo + 1)}>Trigger re-render</button>
-      <input
-        type="number"
-        min={0}
-        max={35}
-        aria-label="Fibonacci input"
-        value={input}
-        onChange={(e) =>
-          setInput(
-            Math.min(35, Math.max(0, Math.trunc(Number(e.target.value) || 0))),
-          )
-        }
-      />
+    <div className="fibonacciDemo">
+      <div className="fibonacciControls">
+        <button onClick={() => setFoo(foo + 1)}>Trigger re-render</button>
+        <input
+          type="number"
+          min={0}
+          max={35}
+          aria-label="Fibonacci input"
+          value={input}
+          onChange={(e) =>
+            setInput(
+              Math.min(35, Math.max(0, Math.trunc(Number(e.target.value) || 0))),
+            )
+          }
+        />
 
+      </div>
       <p>{`Value: ${value}`}</p>
       <p>{`Count: ${foo}`}</p>
     </div>
@@ -52,21 +54,23 @@ const MemoizedFib = () => {
   }, [input]);
 
   return (
-    <div>
-      <button onClick={() => setFoo(foo + 1)}>Trigger re-render</button>
-      <input
-        type="number"
-        min={0}
-        max={35}
-        aria-label="Fibonacci input"
-        value={input}
-        onChange={(e) =>
-          setInput(
-            Math.min(35, Math.max(0, Math.trunc(Number(e.target.value) || 0))),
-          )
-        }
-      />
+    <div className="fibonacciDemo">
+      <div className="fibonacciControls">
+        <button onClick={() => setFoo(foo + 1)}>Trigger re-render</button>
+        <input
+          type="number"
+          min={0}
+          max={35}
+          aria-label="Fibonacci input"
+          value={input}
+          onChange={(e) =>
+            setInput(
+              Math.min(35, Math.max(0, Math.trunc(Number(e.target.value) || 0))),
+            )
+          }
+        />
 
+      </div>
       <p>{`Value: ${value}`}</p>
       <p>{`Count: ${foo}`}</p>
     </div>
