@@ -1,0 +1,3707 @@
+{
+  "status": "success",
+  "message": "Synthetic lecture demo data; descriptions, credits, offerings, and instructors are illustrative, not official roster information.",
+  "data": {
+    "classes": [
+      {
+        "subject": "CS",
+        "catalogNbr": "1110",
+        "titleShort": "Intro Computing: Design & Dev",
+        "description": "An introduction to programming with Python, including functions, loops, data structures, and small software projects.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "1112",
+        "titleShort": "Intro Computing: Engrg & Sci",
+        "description": "Explore the central ideas and methods of Intro Computing: Engrg & Sci through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "1132",
+        "titleShort": "Short Course in MATLAB",
+        "description": "Additional practice in Short Course in MATLAB, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "1133",
+        "titleShort": "Short Course in Python",
+        "description": "Additional practice in Short Course in Python, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "1340",
+        "titleShort": "Consequences in Computing",
+        "description": "Explore the central ideas and methods of Consequences in Computing through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "1700",
+        "titleShort": "Elements of AI",
+        "description": "Explore the central ideas and methods of Elements of AI through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "1998",
+        "titleShort": "First-year Team Projects",
+        "description": "Explore the central ideas and methods of First-year Team Projects through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "2043",
+        "titleShort": "UNIX Tools and Scripting",
+        "description": "Explore the central ideas and methods of UNIX Tools and Scripting through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "2110",
+        "titleShort": "Obj-Oriented Prog & Data Struc",
+        "description": "Practice object-oriented programming, recursion, testing, and core data structures through programming assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "2800",
+        "titleShort": "Math Foundations of CS",
+        "description": "Explore the central ideas and methods of Math Foundations of CS through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "3110",
+        "titleShort": "Data Struct & Functional Progr",
+        "description": "Explore the central ideas and methods of Data Struct & Functional Progr through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "3152",
+        "titleShort": "Intro Game Architecture",
+        "description": "Explore the central ideas and methods of Intro Game Architecture through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "3410",
+        "titleShort": "Computer System Organization",
+        "description": "Explore the central ideas and methods of Computer System Organization through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "3420",
+        "titleShort": "Embedded Systems",
+        "description": "Explore the central ideas and methods of Embedded Systems through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "3700",
+        "titleShort": "AI Reasoning/Decision-Making",
+        "description": "Explore the central ideas and methods of AI Reasoning/Decision-Making through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "3780",
+        "titleShort": "Intro to Machine Learning",
+        "description": "Explore the central ideas and methods of Intro to Machine Learning through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4090",
+        "titleShort": "Teaching Experience in CS",
+        "description": "Explore the central ideas and methods of Teaching Experience in CS through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4152",
+        "titleShort": "Adv Game Architecture",
+        "description": "Explore the central ideas and methods of Adv Game Architecture through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4220",
+        "titleShort": "Num Analysis: Lin&Nonlin Equat",
+        "description": "Explore the central ideas and methods of Num Analysis: Lin&Nonlin Equat through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4300",
+        "titleShort": "Language and Information",
+        "description": "Explore the central ideas and methods of Language and Information through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4410",
+        "titleShort": "Operating Systems",
+        "description": "Explore the central ideas and methods of Operating Systems through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4411",
+        "titleShort": "Practicum in Oper Syst",
+        "description": "Explore the central ideas and methods of Practicum in Oper Syst through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4450",
+        "titleShort": "Intro to Computer Networks",
+        "description": "Explore the central ideas and methods of Intro to Computer Networks through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4670",
+        "titleShort": "Intro to Computer Vision",
+        "description": "Explore the central ideas and methods of Intro to Computer Vision through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4701",
+        "titleShort": "Prac in A I",
+        "description": "Explore the central ideas and methods of Prac in A I through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4740",
+        "titleShort": "Natural Lang Process",
+        "description": "Explore the central ideas and methods of Natural Lang Process through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4744",
+        "titleShort": "Computational Linguistics I",
+        "description": "Explore the central ideas and methods of Computational Linguistics I through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4754",
+        "titleShort": "Re-Designing Robots",
+        "description": "Explore the central ideas and methods of Re-Designing Robots through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4756",
+        "titleShort": "Robot Learning",
+        "description": "Explore the central ideas and methods of Robot Learning through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4758",
+        "titleShort": "Autonomous Mobile Robots",
+        "description": "Explore the central ideas and methods of Autonomous Mobile Robots through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4782",
+        "titleShort": "Introduction to Deep Learning",
+        "description": "Explore the central ideas and methods of Introduction to Deep Learning through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4789",
+        "titleShort": "Intro Reinforcement Learning",
+        "description": "Explore the central ideas and methods of Intro Reinforcement Learning through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4810",
+        "titleShort": "Intro Theory Comp",
+        "description": "Explore the central ideas and methods of Intro Theory Comp through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4813",
+        "titleShort": "Quantum Computing",
+        "description": "Explore the central ideas and methods of Quantum Computing through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4820",
+        "titleShort": "Intro Analysis of Algorithms",
+        "description": "Explore the central ideas and methods of Intro Analysis of Algorithms through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4850",
+        "titleShort": "Prob, Vectors, Matrices in CS",
+        "description": "Explore the central ideas and methods of Prob, Vectors, Matrices in CS through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4852",
+        "titleShort": "Networks II: Market Design",
+        "description": "Explore the central ideas and methods of Networks II: Market Design through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4997",
+        "titleShort": "Practical Training in Comp Sci",
+        "description": "Explore the central ideas and methods of Practical Training in Comp Sci through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4998",
+        "titleShort": "Team Projects",
+        "description": "Explore the central ideas and methods of Team Projects through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CS",
+        "catalogNbr": "4999",
+        "titleShort": "Independent Reading & Research",
+        "description": "A guided exploration of Independent Reading & Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "ENGRI",
+        "catalogNbr": "1100",
+        "titleShort": "Laser & Photonics",
+        "description": "Explore the central ideas and methods of Laser & Photonics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "ENGRI",
+        "catalogNbr": "1101",
+        "titleShort": "Engr Applications of ORIE",
+        "description": "Explore the central ideas and methods of Engr Applications of ORIE through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "ENGRI",
+        "catalogNbr": "1130",
+        "titleShort": "Sustainable Engineering",
+        "description": "Explore the central ideas and methods of Sustainable Engineering through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "ENGRI",
+        "catalogNbr": "1180",
+        "titleShort": "Building a Habitable Planet",
+        "description": "Explore the central ideas and methods of Building a Habitable Planet through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "1008",
+        "titleShort": "Academic Support for CHEM 2080",
+        "description": "Additional practice in Academic Support for CHEM 2080, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "1058",
+        "titleShort": "Academic Support for CHEM 3580",
+        "description": "Additional practice in Academic Support for CHEM 3580, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "1570",
+        "titleShort": "Intro to Org and Bio Chemistry",
+        "description": "Explore the central ideas and methods of Intro to Org and Bio Chemistry through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "2070",
+        "titleShort": "General Chemistry I",
+        "description": "Explore the central ideas and methods of General Chemistry I through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "2080",
+        "titleShort": "General Chemistry II",
+        "description": "Explore the central ideas and methods of General Chemistry II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "2090",
+        "titleShort": "Engineering General Chemistry",
+        "description": "Explore the central ideas and methods of Engineering General Chemistry through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "2510",
+        "titleShort": "Intro Exper Organic Chem",
+        "description": "Explore the central ideas and methods of Intro Exper Organic Chem through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "2780",
+        "titleShort": "Methods in Cheml Education II",
+        "description": "Explore the central ideas and methods of Methods in Cheml Education II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "2900",
+        "titleShort": "Intro to Physical Chem Lab",
+        "description": "Hands-on work in Intro to Physical Chem Lab, emphasizing experimental methods, careful measurements, analysis, and written reports.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 2,
+            "unitsMaximum": 2,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "3010",
+        "titleShort": "Honors Experimental Chem I",
+        "description": "Hands-on work in Honors Experimental Chem I, emphasizing experimental methods, careful measurements, analysis, and written reports.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 2,
+            "unitsMaximum": 2,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "3030",
+        "titleShort": "Honors Experimental Chem III",
+        "description": "Hands-on work in Honors Experimental Chem III, emphasizing experimental methods, careful measurements, analysis, and written reports.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 2,
+            "unitsMaximum": 2,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "3570",
+        "titleShort": "Org Chem for Life Science",
+        "description": "Explore the central ideas and methods of Org Chem for Life Science through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "3580",
+        "titleShort": "Org Chem For the Life Science",
+        "description": "Explore the central ideas and methods of Org Chem For the Life Science through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "3590",
+        "titleShort": "Honors Organic Chem I",
+        "description": "Explore the central ideas and methods of Honors Organic Chem I through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "3880",
+        "titleShort": "Basics of Biophysical Chem",
+        "description": "Explore the central ideas and methods of Basics of Biophysical Chem through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "3900",
+        "titleShort": "Honors Physical Chem II",
+        "description": "Explore the central ideas and methods of Honors Physical Chem II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4100",
+        "titleShort": "Inorganic Chemistry",
+        "description": "Explore the central ideas and methods of Inorganic Chemistry through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4210",
+        "titleShort": "Intro Inorganic Research",
+        "description": "A guided exploration of Intro Inorganic Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4330",
+        "titleShort": "Intro Analytical Research",
+        "description": "A guided exploration of Intro Analytical Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4430",
+        "titleShort": "Intro to Chem Bio Research",
+        "description": "A guided exploration of Intro to Chem Bio Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4610",
+        "titleShort": "Intro Organic Research",
+        "description": "A guided exploration of Intro Organic Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4770",
+        "titleShort": "Intro Physical Research",
+        "description": "A guided exploration of Intro Physical Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4810",
+        "titleShort": "Computational Methods in Chemi",
+        "description": "Explore the central ideas and methods of Computational Methods in Chemi through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "CHEM",
+        "catalogNbr": "4980",
+        "titleShort": "Honors Sem & Research",
+        "description": "A guided exploration of Honors Sem & Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1012",
+        "titleShort": "Physics 1112 Supplement",
+        "description": "Additional practice in Physics 1112 Supplement, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1013",
+        "titleShort": "Physics 2213 Supplement",
+        "description": "Additional practice in Physics 2213 Supplement, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1102",
+        "titleShort": "General Physics II",
+        "description": "Explore the central ideas and methods of General Physics II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1110",
+        "titleShort": "Intro. to Experimental Physics",
+        "description": "Hands-on work in Intro. to Experimental Physics, emphasizing experimental methods, careful measurements, analysis, and written reports.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 2,
+            "unitsMaximum": 2,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1112",
+        "titleShort": "Physics I: Mechanics & Heat",
+        "description": "Explore the central ideas and methods of Physics I: Mechanics & Heat through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1116",
+        "titleShort": "Phys I Mech & Spec Relativity",
+        "description": "Explore the central ideas and methods of Phys I Mech & Spec Relativity through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1190",
+        "titleShort": "Intro Lab-Transfer Supplement",
+        "description": "Additional practice in Intro Lab-Transfer Supplement, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "1203",
+        "titleShort": "Physics of Heavens & Earth",
+        "description": "Explore the central ideas and methods of Physics of Heavens & Earth through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "2208",
+        "titleShort": "Fundamentals of Physics II",
+        "description": "Explore the central ideas and methods of Fundamentals of Physics II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "2210",
+        "titleShort": "Exploring Experimental Physics",
+        "description": "Hands-on work in Exploring Experimental Physics, emphasizing experimental methods, careful measurements, analysis, and written reports.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 2,
+            "unitsMaximum": 2,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "2213",
+        "titleShort": "Physics II: Electromagnetism",
+        "description": "Explore the central ideas and methods of Physics II: Electromagnetism through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "2214",
+        "titleShort": "Phys III-Osc Waves & Quan Phys",
+        "description": "Explore the central ideas and methods of Phys III-Osc Waves & Quan Phys through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "2216",
+        "titleShort": "Intro to Special Relativity",
+        "description": "Explore the central ideas and methods of Intro to Special Relativity through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "2217",
+        "titleShort": "Phys II Elect&Magnetism",
+        "description": "Explore the central ideas and methods of Phys II Elect&Magnetism through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "2218",
+        "titleShort": "Phys III-Opt Waves&Therm Phys",
+        "description": "Explore the central ideas and methods of Phys III-Opt Waves&Therm Phys through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "3310",
+        "titleShort": "Int Exp Phys",
+        "description": "Explore the central ideas and methods of Int Exp Phys through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "3316",
+        "titleShort": "Basics of Quantum Mechanics",
+        "description": "Explore the central ideas and methods of Basics of Quantum Mechanics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "3318",
+        "titleShort": "Analytical Mechanics",
+        "description": "Explore the central ideas and methods of Analytical Mechanics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "3360",
+        "titleShort": "Electronic Circuits",
+        "description": "Explore the central ideas and methods of Electronic Circuits through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4400",
+        "titleShort": "Informal Adv Lab",
+        "description": "Hands-on work in Informal Adv Lab, emphasizing experimental methods, careful measurements, analysis, and written reports.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 2,
+            "unitsMaximum": 2,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4410",
+        "titleShort": "Adv Experimental Physics",
+        "description": "Hands-on work in Adv Experimental Physics, emphasizing experimental methods, careful measurements, analysis, and written reports.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 2,
+            "unitsMaximum": 2,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4443",
+        "titleShort": "Intermed Quantum Mechanics",
+        "description": "Explore the central ideas and methods of Intermed Quantum Mechanics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4444",
+        "titleShort": "Intro to Particle Phys",
+        "description": "Explore the central ideas and methods of Intro to Particle Phys through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4484",
+        "titleShort": "Teaching and Learning Physics",
+        "description": "Explore the central ideas and methods of Teaching and Learning Physics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4485",
+        "titleShort": "Teaching Experience I",
+        "description": "Explore the central ideas and methods of Teaching Experience I through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4486",
+        "titleShort": "Teaching Experience II",
+        "description": "Explore the central ideas and methods of Teaching Experience II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4487",
+        "titleShort": "Teaching Experience III",
+        "description": "Explore the central ideas and methods of Teaching Experience III through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4488",
+        "titleShort": "Statistical Mechanics",
+        "description": "Explore the central ideas and methods of Statistical Mechanics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4490",
+        "titleShort": "Independent Study in Physics",
+        "description": "A guided exploration of Independent Study in Physics, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4499",
+        "titleShort": "Senior Thesis II",
+        "description": "A guided exploration of Senior Thesis II, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "PHYS",
+        "catalogNbr": "4688",
+        "titleShort": "Topics in Accelerator Physics",
+        "description": "Explore the central ideas and methods of Topics in Accelerator Physics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1006",
+        "titleShort": "Academic Support for Math 1106",
+        "description": "Additional practice in Academic Support for Math 1106, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1011",
+        "titleShort": "Academic Support for Math 1110",
+        "description": "Additional practice in Academic Support for Math 1110, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1012",
+        "titleShort": "Academic Support for Math 1120",
+        "description": "Additional practice in Academic Support for Math 1120, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1021",
+        "titleShort": "Academic Support for MATH 2210",
+        "description": "Additional practice in Academic Support for MATH 2210, using worked examples, focused exercises, and small-group problem solving.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 1,
+            "unitsMaximum": 1,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1106",
+        "titleShort": "Modeling with Calculus",
+        "description": "Explore the central ideas and methods of Modeling with Calculus through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1110",
+        "titleShort": "Calculus I",
+        "description": "Explore the central ideas and methods of Calculus I through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1120",
+        "titleShort": "Calculus II",
+        "description": "Explore the central ideas and methods of Calculus II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1340",
+        "titleShort": "Strategy, Cooperation&Conflict",
+        "description": "Explore the central ideas and methods of Strategy, Cooperation&Conflict through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1910",
+        "titleShort": "Calculus for Engineers",
+        "description": "Explore the central ideas and methods of Calculus for Engineers through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "1920",
+        "titleShort": "Multivariable Calculus Engrs",
+        "description": "Explore the central ideas and methods of Multivariable Calculus Engrs through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "2210",
+        "titleShort": "Linear Algebra",
+        "description": "Explore the central ideas and methods of Linear Algebra through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "2220",
+        "titleShort": "Multivariable Calculus",
+        "description": "Explore the central ideas and methods of Multivariable Calculus through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "2240",
+        "titleShort": "Theory:Linear Algebra/Calculus",
+        "description": "Explore the central ideas and methods of Theory:Linear Algebra/Calculus through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "2310",
+        "titleShort": "Linear Algebra for DataScience",
+        "description": "Explore the central ideas and methods of Linear Algebra for DataScience through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "2930",
+        "titleShort": "Differential Equations Engrs",
+        "description": "Explore the central ideas and methods of Differential Equations Engrs through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "2940",
+        "titleShort": "Linear Algebra for Engineers",
+        "description": "Explore the central ideas and methods of Linear Algebra for Engineers through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 4,
+            "unitsMaximum": 4,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "3040",
+        "titleShort": "Prove It!",
+        "description": "Explore the central ideas and methods of Prove It! through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "3110",
+        "titleShort": "Introduction to Analysis",
+        "description": "Explore the central ideas and methods of Introduction to Analysis through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "3320",
+        "titleShort": "Introduction to Number Theory",
+        "description": "Explore the central ideas and methods of Introduction to Number Theory through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "3340",
+        "titleShort": "Abstract Algebra",
+        "description": "Explore the central ideas and methods of Abstract Algebra through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "3360",
+        "titleShort": "Applicable Algebra",
+        "description": "Explore the central ideas and methods of Applicable Algebra through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4030",
+        "titleShort": "History of Mathematics",
+        "description": "Explore the central ideas and methods of History of Mathematics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4130",
+        "titleShort": "Honors Intro Analysis I",
+        "description": "Explore the central ideas and methods of Honors Intro Analysis I through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4140",
+        "titleShort": "Honors Intro Analysis II",
+        "description": "Explore the central ideas and methods of Honors Intro Analysis II through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4180",
+        "titleShort": "Complex Analysis",
+        "description": "Explore the central ideas and methods of Complex Analysis through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4200",
+        "titleShort": "Diff Eqs & Dynamical Systems",
+        "description": "Explore the central ideas and methods of Diff Eqs & Dynamical Systems through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4260",
+        "titleShort": "Num Analysis: Lin&Nonlin Equat",
+        "description": "Explore the central ideas and methods of Num Analysis: Lin&Nonlin Equat through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4280",
+        "titleShort": "Intro Partial Diff Equations",
+        "description": "Explore the central ideas and methods of Intro Partial Diff Equations through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4310",
+        "titleShort": "Linear Algebra",
+        "description": "Explore the central ideas and methods of Linear Algebra through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4340",
+        "titleShort": "Honors Introduction to Algebra",
+        "description": "Explore the central ideas and methods of Honors Introduction to Algebra through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4500",
+        "titleShort": "Matrix Groups",
+        "description": "Explore the central ideas and methods of Matrix Groups through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4540",
+        "titleShort": "Intro to Differential Geometry",
+        "description": "Explore the central ideas and methods of Intro to Differential Geometry through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4710",
+        "titleShort": "Basic Probability",
+        "description": "Explore the central ideas and methods of Basic Probability through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Sam",
+                        "lastName": "Park"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4720",
+        "titleShort": "Statistics",
+        "description": "Explore the central ideas and methods of Statistics through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Morgan",
+                        "lastName": "Reed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4740",
+        "titleShort": "Stochastic Processes",
+        "description": "Explore the central ideas and methods of Stochastic Processes through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Alex",
+                        "lastName": "Chen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4900",
+        "titleShort": "Supervised Research",
+        "description": "A guided exploration of Supervised Research, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Jordan",
+                        "lastName": "Patel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4901",
+        "titleShort": "Supervised Reading",
+        "description": "A guided exploration of Supervised Reading, with independent study, regular feedback, and a final project or presentation.",
+        "catalogWhenOffered": "Fall and Spring",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Taylor",
+                        "lastName": "Brooks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "MATH",
+        "catalogNbr": "4980",
+        "titleShort": "Study for Mathematics Teaching",
+        "description": "Explore the central ideas and methods of Study for Mathematics Teaching through lectures, worked examples, and applied problem-solving assignments.",
+        "catalogWhenOffered": "Fall",
+        "enrollGroups": [
+          {
+            "unitsMinimum": 3,
+            "unitsMaximum": 3,
+            "classSections": [
+              {
+                "meetings": [
+                  {
+                    "instructors": [
+                      {
+                        "firstName": "Casey",
+                        "lastName": "Rivera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

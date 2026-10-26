@@ -1,0 +1,46 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.lectureDemo > h1 {
+  margin: 0 0 1.5rem;
+}
+
+.lectureDemo > section {
+  margin-top: 2rem;
+}
+
+.lectureDemo > section + section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #7775;
+}
+
+.lectureDemo section h1 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+.fibonacciDemo {
+  margin-top: 1rem;
+}
+
+.fibonacciControls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.fibonacciControls input {
+  width: 5rem;
+}
+
+@media (max-width: 600px) {
+  #root { padding: 1rem; }
+}
