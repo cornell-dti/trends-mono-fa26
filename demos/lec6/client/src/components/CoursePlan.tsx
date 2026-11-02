@@ -3,7 +3,6 @@ import "./styles.css";
 import { COURSES } from "../constants/consts";
 import { useEffect, useState } from "react";
 import { makeArray } from "../util";
-import { API_KEY } from "../environment";
 
 const CoursePlan = () => {
   const [semesterCount, setSemesterCount] = useState<number>(1);
@@ -14,17 +13,6 @@ const CoursePlan = () => {
   };
 
   useEffect(() => {
-    // Quick example for fetch with API key.
-
-    const demo = fetch("http://localhost:8080/api/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${API_KEY}`,
-      },
-      body: JSON.stringify({ key: "secret" }), // or the actual key API_KEY
-    }).then((res) => res.json());
-    console.log(demo);
     //-----------------------
     const fetchCourses = () => COURSES;
     setAllCourses(fetchCourses());
