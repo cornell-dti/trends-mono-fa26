@@ -1,4 +1,4 @@
-# Lecture 6 Demo
+# Lecture 8 Demo
 1. Install packages
     ```bash
     pnpm install
