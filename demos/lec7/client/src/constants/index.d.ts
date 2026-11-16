@@ -5,7 +5,6 @@ type Instructor = {
 };
 
 type Course = {
-  id?: string;
   subject: string;
   catalogNbr: number;
   titleShort: string;
@@ -16,4 +15,5 @@ type Course = {
   instructors?: Instructor[];
   showDetails?: boolean;
   // TODO: add new Course Content for Firestore integration
+  id?: string;
 };

@@ -107,6 +107,10 @@ app.post("/api/courses/:semester/:subject", async (req, res) => {
 
       // TODO: Add course to firestore database
       // Add to database
+      const courseId = await addCourseToDB(course);
+      if (courseId) {
+        addedCourses.push(course);
+      }
     }
 
     res.status(201).json({
