@@ -3,12 +3,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Our web app's Firebase configuration (example)
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: "AIzaSyCxYsSEfmopAVwAPgnjgEBzDZ0d9OBjfdk",
+  authDomain: " (opens in new tab)trends-sp26-lec7-demo.firebaseapp.com",
+  projectId: "trends-sp26-lec7-demo",
+  storageBucket: "trends-sp26-lec7-demo.firebasestorage.app",
+  messagingSenderId: "252787136161",
+  appId: "1:252787136161:web:e11aff79e6a2afe18542e0",
+  measurementId: "G-PPZZDWEEHR",
 };
 
 // Initialize Firebase
