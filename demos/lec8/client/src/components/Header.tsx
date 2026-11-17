@@ -13,9 +13,21 @@ const Header = () => {
    * 2. You want to manage when a user is logged in...maybe a state?
    * 3. The `useAuth` hook will give you back a user, which has a displayName property.
    */
+  // handle state
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // useAuth
+  const { user } = useAuth();
 
   const handleLoginClick = async () => {
     // TODO
+    if (isLoggedIn) {
+      // signOut
+      await signOut();
+    } else {
+      // signIn
+       await signIn();
+    }
+    setIsLoggedIn(!isLoggedIn); //flip it
   };
 
   return (
@@ -27,7 +39,10 @@ const Header = () => {
         gap: "12px",
       }}
     >
-      <button onClick={handleLoginClick}>TODO!</button>
+      {isLoggedIn && user && <p>Hello, {user.phoneNumber}</p>}
+      <button onClick={handleLoginClick}>{
+        isLoggedIn ? "Sign Out" : "Log In"
+}</button>
     </div>
   );
 };
